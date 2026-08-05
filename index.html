@@ -338,6 +338,11 @@ nav.glass{background:rgba(5,5,7,.8);backdrop-filter:blur(24px);border-bottom:1px
   background:var(--a);border-color:var(--a);color:#000;
   transform:rotate(-45deg);
 }
+.pi-links{display:flex;gap:.75rem;align-items:center;position:relative;z-index:2}
+.pi-links .pi-arrow:hover{
+  background:var(--a);border-color:var(--a);color:#000;
+  transform:rotate(-45deg);
+}
 
 /* ═══ EXPERIENCE ═══ */
 .exp-sec{background:var(--bg)}
@@ -588,7 +593,7 @@ body::after{
 
       <div class="numbers-col">
         <div class="num-row reveal tilt-card">
-          <span class="nr-n" data-count="5">0</span>
+          <span class="nr-n" data-count="6">0</span>
           <span class="nr-l">Projects<br/>Delivered</span>
         </div>
         <div class="num-row reveal tilt-card">
@@ -761,6 +766,30 @@ body::after{
         <a href="https://github.com/adithvp/AI-Resume-Analyzer" target="_blank" class="pi-arrow">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
         </a>
+      </div>
+
+      <div class="proj-item reveal">
+        <div class="pi-num">06</div>
+        <div class="pi-body">
+          <div class="pi-tags">
+            <span class="pi-tag">Next.js</span>
+            <span class="pi-tag">FastAPI</span>
+            <span class="pi-tag">GPT-4o</span>
+            <span class="pi-tag">Python</span>
+            <span class="pi-tag">TypeScript</span>
+            <span class="pi-tag" style="border-color:rgba(34,255,136,.4);color:#22ff88;background:rgba(34,255,136,.08);">Live Demo</span>
+          </div>
+          <div class="pi-name">GEO Auditor AI – AI-Powered Website Visibility Auditor</div>
+          <p class="pi-desc">Full-stack web application designed to evaluate website optimization for AI search engines and LLMs. Combines automated web crawling (robots.txt, sitemaps, JSON-LD Schema.org), a transparent 7-point rule-based GEO scoring engine, and GPT-4o for content quality & E-E-A-T evaluation with exportable HTML, PDF, and JSON reports.</p>
+        </div>
+        <div class="pi-links">
+          <a href="https://github.com/adithvp/geo-auditor-ai" target="_blank" class="pi-arrow" title="GitHub Repository">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://geo-auditor-ai.vercel.app/" target="_blank" class="pi-arrow" title="Live Demo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
       </div>
 
     </div>
